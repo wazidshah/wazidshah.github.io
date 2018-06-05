@@ -1,0 +1,98 @@
+body{
+  position:absolute;
+}
+div.container-fluid{
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.sidebar{
+  background-color: rgb(255, 209, 26);
+  
+}
+
+.circle{
+  /* border-radius: 50%;
+  overflow: hidden;
+  height:-webkit-fill-available;
+  height:-moz-available; 
+  width: 15vw; */
+  border: 0.5em solid rgb(255, 209, 26);
+}
+
+.circle2{
+  /* border-radius: 50%;
+  
+  
+   */
+   background: #ffffff;
+  height:14vw;
+  width: 14vw;
+  min-width: 90px;
+  min-height: 90px;
+  padding-top: 0.87vw;
+  border: 0.09em solid black;
+}
+
+.image{
+
+  background: url("https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center no-repeat;
+  height: 6vw;
+  width: 6vw;
+  min-width: 3vw;
+  min-height: 3vw;
+}
+
+.ruda{
+  font-family: 'Ruda';
+}
+
+.name{
+  font-size: 3vw;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.banner{
+  color:rgb(255, 209, 26) !important;
+}
+
+.merri{
+  font-family: 'Merriweather Sans';
+}
+
+
+.posi{
+  font-size: 1em;
+  font-size-adjust: 1vw;
+}
+
+@media only screen and (max-width:650px) {
+  .name{
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+}
+
+.overlay{
+  position: absolute;
+  background: rgba(132, 247, 109, 0.5);
+  width: 70%;
+  height:100%;
+  z-index: 1;
+}
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+  background-color: none;
+  white-space: nowrap;
+}
+
+a:hover{
+  color: white;
+}
+/*circular progress*/
+
+/**/
